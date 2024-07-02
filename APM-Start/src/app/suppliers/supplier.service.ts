@@ -26,5 +26,4 @@ export class SupplierService {
     console.error(err);
     return throwError(() => errorMessage);
   }
-
 }

@@ -15,4 +15,5 @@ export class AppData implements InMemoryDbService {
     const suppliers = SupplierData.suppliers;
     return { products, productCategories, suppliers };
   }
+  
 }

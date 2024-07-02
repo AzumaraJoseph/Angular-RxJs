@@ -5,3 +5,4 @@ export interface Supplier {
   cost: number;
   minQuantity: number;
 }
+
