@@ -69,3 +69,4 @@ export class ProductListEditComponent {
     this.productEditService.updateProduct(product);
   }
 }
+

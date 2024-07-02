@@ -37,6 +37,7 @@ export class ProductEditService {
     shareReplay(1)
   );
 
+  
   // Action Stream for adding/updating/deleting products
   private productModifiedSubject = new Subject<Action<Product>>();
   productModifiedAction$ = this.productModifiedSubject.asObservable();

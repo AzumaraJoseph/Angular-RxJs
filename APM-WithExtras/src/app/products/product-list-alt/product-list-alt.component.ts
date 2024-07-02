@@ -20,7 +20,6 @@ export class ProductListAltComponent {
         return EMPTY;
       })
     );
-
   selectedProduct$ = this.productService.selectedProduct$;
 
   vm$ = combineLatest([

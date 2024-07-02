@@ -18,3 +18,4 @@ export class AppData implements InMemoryDbService {
     return { products, productCategories, suppliers, productsFromAPI };
   }
 }
+

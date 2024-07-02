@@ -21,7 +21,6 @@ export class ProductDetailComponent {
         return EMPTY;
       })
     );
-
   pageTitle$ = this.product$
     .pipe(
       map(p => p ? `Product Detail for: ${p.productName}` : null)
