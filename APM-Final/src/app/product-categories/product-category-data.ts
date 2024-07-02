@@ -15,5 +15,6 @@ export class ProductCategoryData {
       id: 5,
       name: 'Gaming'
     }
-  ];
+  ]
+  
 }

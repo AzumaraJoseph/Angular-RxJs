@@ -11,6 +11,8 @@ import { ProductService } from '../product.service';
 export class ProductDetailComponent {
   private errorMessageSubject = new Subject<string>();
   errorMessage$ = this.errorMessageSubject.asObservable();
+  constructor(private productService: ProductService) { }
+
 
   product$ = this.productService.selectedProduct$
     .pipe(
@@ -43,6 +45,5 @@ export class ProductDetailComponent {
         ({ product, productSuppliers, pageTitle }))
     );
 
-  constructor(private productService: ProductService) { }
 
 }

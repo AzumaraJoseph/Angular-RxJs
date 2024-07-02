@@ -1,7 +1,6 @@
 import { Supplier } from './supplier';
 
 export class SupplierData {
-
   static suppliers: Supplier[] = [
     {
       id: 1,

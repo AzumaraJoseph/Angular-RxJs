@@ -13,6 +13,9 @@ export class ProductListAltComponent {
   private errorMessageSubject = new Subject<string>();
   errorMessage$ = this.errorMessageSubject.asObservable();
 
+  constructor(private productService: ProductService) { }
+
+
   products$ = this.productService.productsWithCategory$
     .pipe(
       catchError(err => {
@@ -32,7 +35,6 @@ export class ProductListAltComponent {
         ({ products, productId: product ? product.id : 0 }))
     );
 
-  constructor(private productService: ProductService) { }
 
   onSelected(productId: number): void {
     this.productService.selectedProductChanged(productId);

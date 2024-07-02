@@ -35,7 +35,6 @@ export class ProductService {
     ),
     shareReplay(1)
   );
-
   private productSelectedSubject = new BehaviorSubject<number>(0);
   productSelectedAction$ = this.productSelectedSubject.asObservable();
 

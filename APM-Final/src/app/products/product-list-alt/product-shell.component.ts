@@ -4,5 +4,4 @@ import { Component } from '@angular/core';
   templateUrl: './product-shell.component.html'
 })
 export class ProductShellComponent {
-
 }

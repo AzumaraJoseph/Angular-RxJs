@@ -56,6 +56,7 @@ export class ProductListComponent {
     this.productService.addProduct();
   }
 
+  
   onSelected(categoryId: string): void {
     this.categorySelectedSubject.next(+categoryId);
   }
