@@ -3,6 +3,7 @@ import { BehaviorSubject, map, tap } from 'rxjs';
 import { CartItem } from '../cart';
 import { CartService } from '../cart.service';
 
+
 @Component({
   selector: 'sw-cart-item',
   templateUrl: './cart-item.component.html'

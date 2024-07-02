@@ -18,5 +18,4 @@ export class CartTotalComponent {
   totalPrice$ = this.cartService.totalPrice$;
 
   constructor(private cartService: CartService) { }
-
 }
