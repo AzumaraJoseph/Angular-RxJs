@@ -1,5 +1,4 @@
 ### Useful Links
-
 Here are some useful links that are referenced in or supplement this course:
 
 | Name | Description | Link |
