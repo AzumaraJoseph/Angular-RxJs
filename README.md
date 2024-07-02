@@ -12,7 +12,6 @@ Added packages:
 
 (The above also required changes to .eslintrc.json)
 
-
 `APM-Start`: The starter files for the course. **Use this to code along with the course**.
 
 `APM-Final`: The completed files. Use this to see the completed solution from the course.
