@@ -10,5 +10,5 @@ export interface Product {
   quantityInStock?: number;
   searchKey?: string[];
   supplierIds?: number[];
-  
+
 }
