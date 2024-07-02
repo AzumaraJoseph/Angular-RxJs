@@ -20,7 +20,6 @@ export class ProductService {
       tap(data => console.log('Products: ', JSON.stringify(data))),
       catchError(this.handleError)
     );
-
   productsWithCategory$ = combineLatest([
     this.products$,
     this.productCategoryService.productCategories$
