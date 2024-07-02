@@ -14,7 +14,6 @@ Here are some useful links that are referenced in or supplement this course:
 | node/npm | Download node and npm | https://nodejs.org/en/download
 | Angular DevTools | Chrome extension for Angular debugging and profiling | https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh
 | Angular ESLint | Enabling ESLint in Angular projects | https://github.com/angular-eslint/angular-eslint
-
 ### Additional Suggested Pluralsight Courses
 
 | Name |  Link |
