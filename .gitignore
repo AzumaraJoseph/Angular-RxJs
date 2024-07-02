@@ -7,7 +7,6 @@ bower_components
 
 **/*.log/*.*
 **/*.log
-
 .vs
 **/*.sou
 **/*.user
